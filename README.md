@@ -333,6 +333,7 @@ Re- initialize Greenplum database in case it's screwed up
 
 ## Integrate Kerberos with Ambari
 [Set Up Kerberos for Ambari Server](http://docs.hortonworks.com/HDPDocuments/Ambari-2.1.2.0/bk_Ambari_Security_Guide/content/_optional_set_up_kerberos_for_ambari_server.html)
+[An IBM document reference](https://www-01.ibm.com/support/knowledgecenter/SSPT3X_4.1.0/com.ibm.swg.im.infosphere.biginsights.admin.doc/doc/admin_kerb_mankdc)
 
 ### Download JCE Security Policy
     http://docs.hortonworks.com/HDPDocuments/Ambari-2.1.1.0/bk_Ambari_Security_Guide/content/_distribute_and_install_the_jce.html
