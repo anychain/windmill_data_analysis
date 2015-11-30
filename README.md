@@ -295,7 +295,7 @@ Make sure you follow up the instruction at [Advanced hawq-site Properties](http:
 #### Install
 Create multiple segments during install - [hawq.data.directory](http://hawq.docs.pivotal.io/docs-hawq/topics/install-ambari.html)
 
-Make sure you carefully read the section of "**hawq.data.directory**". In our case, we created 5 Hawq instances on each Hawq segment node. This is **essential** to Hawq performance.
+Make sure you carefully read the section of "**hawq.data.directory**". In our case, we created 5 Hawq instances on each Hawq segment node. This is **essential** to Hawq **performance**.
 
 #### PostgreSQL
 Edit /data/hawq/master/gpseg-1/postgresql.conf, to disable statistics during data load
