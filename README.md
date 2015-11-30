@@ -41,7 +41,7 @@ To ensure "noatime" param is added when mounting /data and /data/zookeeper
 
     for i in {1..5}; do ssh nd$i 'echo $HOSTNAME; grep "defaults,noatime" /etc/fstab'; done
 
-### Disk Performance - utilization check
+### Disk Performance - Utilization Check
     iostat -p sda -x  
 
 ### Hosts    
