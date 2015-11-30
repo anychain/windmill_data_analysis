@@ -309,6 +309,9 @@ Edit /data/hawq/master/gpseg-1/postgresql.conf, to disable statistics during dat
 #### Common Causes of Performance Issues
 [Common Causes of Performance Issues](http://hawq.docs.pivotal.io/docs-hawq/docs-hawq-shared/admin_guide/perf_issues.html)
 
+#### Investigating a Performance Problem
+[Investigating a Performance Problem](http://hawq.docs.pivotal.io/docs-hawq/docs-hawq-shared/admin_guide/perf_troubleshoot.html)
+
 ### Hawq - Preparing and Adding Nodes
 [Document from Pivotal - http://pivotalhd.docs.pivotal.io/doc/...ExpandingtheHAWQSystem-PreparingandAddingNodes](http://pivotalhd-210.docs.pivotal.io/doc/2010/ExpandingtheHAWQSystem.html#ExpandingtheHAWQSystem-PreparingandAddingNodes)
 
