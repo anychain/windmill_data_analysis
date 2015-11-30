@@ -1,0 +1,10 @@
+{"namespace": "com.ibm.poc",
+ "type": "record",
+ "name": "WTRecord",
+ "fields": [
+     {"name": "recordtime", "type": "string"},
+     {"name": "wtid",  "type": ["string", "null"]},
+     {"name": "switchitems", "type": {"type": "array", "items":"boolean"}},
+     {"name": "simitems", "type": {"type": "array", "items":"float"}}
+ ]
+}
