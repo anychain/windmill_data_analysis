@@ -80,7 +80,7 @@ Edit /etc/ssh/sshd_config
 
      for i in 1 2 3 4 5 6; do ssh poc$i '/etc/init.d/rpcgssd stop; echo $HOSTNAME'; done
 
-### Enable “set -o vi” in /etc/bashrc (optional)
+### Enable “set -o vi” in /etc/bashrc (optional for vi/ vim lover :-)
      for i in 1 2 3 4 5 6; do ssh poc$i "echo 'set -o vi' >> /etc/bashrc"; done
 
 Update “transparent_hugepage” in Kernel. Edit /etc/grub.conf and add the following at the end of line quite
