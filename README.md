@@ -18,8 +18,9 @@
 ### Disk RAID 0
 All 1T * 5 disks
 ### CentOS 6.7 x86_64
-#### Disable SELinux
-#### Don't install Java
+Disable SELinux
+
+Don't install Java
 
 ### Partition ext4fs
 
